@@ -1,0 +1,63 @@
+{
+    "name": "PlayerInputActions",
+    "maps": [
+        {
+            "name": "Controls",
+            "id": "b3e0fc46-a50d-4442-8833-31afdc89e619",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "f8f7c6e9-b904-475f-987c-9a9e4a9577cc",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Touch",
+                    "type": "Value",
+                    "id": "de06a010-8c94-4d5b-85c1-898b978e6072",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a47175aa-c72e-4adc-8c09-e42c3e6acb6d",
+                    "path": "<Joystick>/stick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3fb0212d-6702-47a1-be3f-b6f92c80c208",
+                    "path": "<Touchscreen>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Touch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ed7deee5-2cef-4dca-9b20-6f83d36a587f",
+                    "path": "<Pointer>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Touch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
